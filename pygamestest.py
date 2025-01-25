@@ -4,11 +4,11 @@ from sys import exit
 def testpygames():
     pygame.init()
 
-    #initialize a screen
+    # initialize a screen
     screen = pygame.display.set_mode((800, 400))
-    #set a title
+    # set a title
     pygame.display.set_caption('Bouboule.exe')
-    #usefull to have 60fps
+    # usefull to have 60fps
     clock = pygame.time.Clock()
 
     #display surface (200,100) et couleur (beaucoup disponible)
